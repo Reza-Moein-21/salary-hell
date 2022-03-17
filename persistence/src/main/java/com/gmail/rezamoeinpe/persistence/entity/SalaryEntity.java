@@ -1,6 +1,6 @@
-package com.gmail.rezamoeinpe.entity;
+package com.gmail.rezamoeinpe.persistence.entity;
 
-import com.gmail.rezamoeinpe.entity.enums.JalaliMonth;
+import com.gmail.rezamoeinpe.persistence.enums.JalaliMonth;
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package com.gmail.rezamoeinpe.entity.enums;
+package com.gmail.rezamoeinpe.persistence.enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

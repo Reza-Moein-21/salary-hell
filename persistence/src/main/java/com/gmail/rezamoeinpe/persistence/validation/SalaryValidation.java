@@ -1,7 +1,7 @@
-package com.gmail.rezamoeinpe.entity.validation;
+package com.gmail.rezamoeinpe.persistence.validation;
 
-import com.gmail.rezamoeinpe.entity.SalaryEntity;
-import com.gmail.rezamoeinpe.exceptions.RequiredFieldException;
+import com.gmail.rezamoeinpe.persistence.entity.SalaryEntity;
+import com.gmail.rezamoeinpe.persistence.exceptions.RequiredFieldException;
 
 import java.util.HashSet;
 import java.util.Objects;

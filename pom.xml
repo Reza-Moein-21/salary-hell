@@ -6,7 +6,11 @@
 
     <groupId>com.gmail.rezamoeinpe</groupId>
     <artifactId>salary-hell</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>persistence</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -59,5 +63,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

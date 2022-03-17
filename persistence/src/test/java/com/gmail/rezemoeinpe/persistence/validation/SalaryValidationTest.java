@@ -1,10 +1,11 @@
-package com.gmail.rezamoeinpe.validation;
+package com.gmail.rezemoeinpe.persistence.validation;
 
-import com.gmail.rezamoeinpe.entity.CompanyEntity;
-import com.gmail.rezamoeinpe.entity.SalaryEntity;
-import com.gmail.rezamoeinpe.entity.enums.JalaliMonth;
-import com.gmail.rezamoeinpe.entity.validation.SalaryValidation;
-import com.gmail.rezamoeinpe.exceptions.RequiredFieldException;
+
+import com.gmail.rezamoeinpe.persistence.entity.CompanyEntity;
+import com.gmail.rezamoeinpe.persistence.entity.SalaryEntity;
+import com.gmail.rezamoeinpe.persistence.enums.JalaliMonth;
+import com.gmail.rezamoeinpe.persistence.exceptions.RequiredFieldException;
+import com.gmail.rezamoeinpe.persistence.validation.SalaryValidation;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

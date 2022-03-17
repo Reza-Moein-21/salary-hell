@@ -1,4 +1,4 @@
-package com.gmail.rezamoeinpe.exceptions;
+package com.gmail.rezamoeinpe.persistence.exceptions;
 
 import lombok.Getter;
 import lombok.Setter;

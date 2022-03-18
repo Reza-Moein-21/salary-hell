@@ -8,6 +8,8 @@ import java.math.BigDecimal;
 @Data
 public class SalaryEntity {
 
+    private Long id;
+
     private CompanyEntity company;
 
     private BigDecimal price;

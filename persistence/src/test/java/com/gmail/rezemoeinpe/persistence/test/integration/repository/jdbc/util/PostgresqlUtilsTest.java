@@ -1,6 +1,6 @@
 package com.gmail.rezemoeinpe.persistence.test.integration.repository.jdbc.util;
 
-import com.gmail.rezamoeinpe.persistence.repository.jdbc.util.PostgresqlUtils;
+import com.gmail.rezamoeinpe.persistence.jdbc.postgresql.PostgresqlUtils;
 import com.gmail.rezamoeinpe.persistence.utils.PropertyFileLoader;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

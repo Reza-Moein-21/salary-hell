@@ -1,5 +1,6 @@
-package com.gmail.rezamoeinpe.persistence.repository.jdbc;
+package com.gmail.rezamoeinpe.persistence.jdbc.postgresql;
 
+import com.gmail.rezamoeinpe.persistence.jdbc.JDBCHandler;
 import lombok.RequiredArgsConstructor;
 
 import javax.sql.DataSource;

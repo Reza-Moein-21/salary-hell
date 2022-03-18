@@ -1,8 +1,8 @@
-package com.gmail.rezamoeinpe.persistence.repository.jdbc.impl;
+package com.gmail.rezamoeinpe.persistence.repository.impl;
 
 import com.gmail.rezamoeinpe.persistence.entity.SalaryEntity;
-import com.gmail.rezamoeinpe.persistence.repository.jdbc.PostgresqlJDBCHandler;
-import com.gmail.rezamoeinpe.persistence.repository.jdbc.SalaryRepository;
+import com.gmail.rezamoeinpe.persistence.jdbc.postgresql.PostgresqlJDBCHandler;
+import com.gmail.rezamoeinpe.persistence.repository.SalaryRepository;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

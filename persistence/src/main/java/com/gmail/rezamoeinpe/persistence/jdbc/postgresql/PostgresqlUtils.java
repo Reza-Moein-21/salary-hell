@@ -1,4 +1,4 @@
-package com.gmail.rezamoeinpe.persistence.repository.jdbc.util;
+package com.gmail.rezamoeinpe.persistence.jdbc.postgresql;
 
 import org.postgresql.ds.PGSimpleDataSource;
 

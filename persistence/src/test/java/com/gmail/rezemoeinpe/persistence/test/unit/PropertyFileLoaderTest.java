@@ -19,4 +19,19 @@ public class PropertyFileLoaderTest {
         assertEquals("pl", property.getProperty("name"));
         assertNull(property.getProperty("no-key"));
     }
+
+    @Test
+    public void shouldThrowNullExceptionWhenInputParamBeenNull() {
+        assertThrows(NullPointerException.class,
+                () -> PropertyFileLoader.loadProperty(null),
+                "property url is null. so should throw null pointer exception");
+    }
+
+
+    @Test
+    public void shouldThrowNullExceptionWhenPassingWrongPropertyURL() {
+        assertThrows(NullPointerException.class,
+                () -> PropertyFileLoader.loadProperty(new URL("file://")),
+                "property url is wrong. so should throw null pointer exception");
+    }
 }

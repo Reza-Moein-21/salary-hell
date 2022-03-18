@@ -6,7 +6,7 @@ import com.gmail.rezamoeinpe.persistence.exceptions.RequiredFieldException;
 import java.util.HashSet;
 import java.util.Objects;
 
-public class SalaryValidation implements EntityValidation<SalaryEntity> {
+public class SalaryEntityValidation implements EntityValidation<SalaryEntity> {
 
     @Override
     public void validate(SalaryEntity salary) throws NullPointerException, RequiredFieldException {

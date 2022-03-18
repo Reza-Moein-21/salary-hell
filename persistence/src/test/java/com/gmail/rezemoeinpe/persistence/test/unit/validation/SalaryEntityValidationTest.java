@@ -5,7 +5,7 @@ import com.gmail.rezamoeinpe.persistence.entity.CompanyEntity;
 import com.gmail.rezamoeinpe.persistence.entity.SalaryEntity;
 import com.gmail.rezamoeinpe.persistence.enums.JalaliMonth;
 import com.gmail.rezamoeinpe.persistence.exceptions.RequiredFieldException;
-import com.gmail.rezamoeinpe.persistence.validation.SalaryValidation;
+import com.gmail.rezamoeinpe.persistence.validation.SalaryEntityValidation;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,13 +14,13 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SalaryValidationTest {
+public class SalaryEntityValidationTest {
 
-    private SalaryValidation validation;
+    private SalaryEntityValidation validation;
 
     @BeforeEach
     void setUp() {
-        this.validation = new SalaryValidation();
+        this.validation = new SalaryEntityValidation();
     }
 
     @Test
